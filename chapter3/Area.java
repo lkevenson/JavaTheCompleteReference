@@ -5,8 +5,7 @@ class Area{
     r = 10.8; // radius of circle
     pi = 3.1416; // pi approximately
     a = pi * r * r; // compute area
-
-
+    
     System.out.println("Area of the Circle is " + a);
   }
 }
