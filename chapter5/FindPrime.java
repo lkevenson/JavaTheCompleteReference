@@ -15,8 +15,8 @@ public class FindPrime {
             }
         }
 
-      if(isPrime)  System.out.println("Prime");
-      else System.out.println("Not Prime");
+        if (isPrime) System.out.println("Prime");
+        else System.out.println("Not Prime");
 
     }
 }

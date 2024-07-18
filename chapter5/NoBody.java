@@ -6,7 +6,7 @@ public class NoBody {
         j = 200;
 
         // find the midpoint between i and j
-        while (++i < --j); // no body in this loop
+        while (++i < --j) ; // no body in this loop
 
         System.out.println("Midpoint is " + i);
 

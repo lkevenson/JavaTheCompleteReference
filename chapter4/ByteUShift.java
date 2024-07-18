@@ -6,10 +6,10 @@ public class ByteUShift {
                 '8', '9', 'a', 'b', 'c', 'd', 'e', 'f',
         };
 
-        byte b  = (byte) 0xf1;
-        byte c  = (byte) (b >> 4);
-        byte d  = (byte) (b >>> 4);
-        byte e  = (byte) ((b & 0xff) >> 4);
+        byte b = (byte) 0xf1;
+        byte c = (byte) (b >> 4);
+        byte d = (byte) (b >>> 4);
+        byte e = (byte) ((b & 0xff) >> 4);
 
         System.out.println("              b = Ox" + hex[(b >> 4) & 0x0f] + hex[b & 0x0f]);
         System.out.println("         b >> 4 = Ox" + hex[(c >> 4) & 0x0f] + hex[c & 0x0f]);

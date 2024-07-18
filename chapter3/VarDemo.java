@@ -14,7 +14,7 @@ public class VarDemo {
         // Interestingly, in the following sequence, vsr is used
         // as both the type of the declaration and as a variable name
         // in the initializer
-        var k = - var;
+        var k = -var;
         System.out.println("Value of k: " + k);
     }
 }
