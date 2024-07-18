@@ -5,7 +5,7 @@ public class Return {
 
         System.out.println("Before the return.");
 
-        if (t) return;
+        if (t) return; // return to caller.
 
         System.out.println("This won't execute");
     }
