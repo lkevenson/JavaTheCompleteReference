@@ -1,10 +1,19 @@
 /* Here, Box defines three constructors to initialize
     the dimensions of a box various ways.
  */
+
+// Here, box allows one objects to initialize another
 public class Box2 {
     double width;
     double height;
     double depth;
+
+    // Notice this constructor. It takes an object of type Box.
+    Box2(Box2 ob) { // pass object to constructor
+        width = ob.width;
+        height = ob.height;
+        depth = ob.depth;
+    }
 
     // constructor used when all dimensions specified
     Box2(double w, double h, double d) {
